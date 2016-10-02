@@ -1,0 +1,147 @@
+﻿@charset "UTF-8";
+ul#album-universidades {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-universidades li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 5px solid #fff;
+    background-color: #fff;
+    -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in
+    }
+
+ul#album-universidades li:hover {
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+    }
+
+ul#album-universidades li span {
+    color: #fff;
+    text-shadow: 1px 1px 1px #050;
+    background-color: rgba(0,0,0,1),;
+    font-size: 9pt;
+    padding: 5px;
+}
+
+
+/* formatação das fotos como background dos li */
+/* ****************** 1 ******************* */
+ul#album-universidades li#foto01 {
+    background: url("../_img/logo-california.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-universidades li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* **************** 2 ********************* */
+ul#album-universidades li#foto02 {
+    background: url("../_img/logo-stanford.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-universidades li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* ***************** 3 ******************** */
+ul#album-universidades li#foto03 {
+    background: url("../_img/logo-columbia.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-universidades li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* **************** 4 ********************* */
+ul#album-universidades li#foto04 {
+    background: url("../_img/logo-cornell.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-universidades li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* *************** 5 ********************** */
+ul#album-universidades li#foto05 {
+    background: url("../_img/logo-american.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-universidades li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* **************** 6 ********************* */
+ul#album-universidades li#foto06 {
+    background: url("../_img/logo-portland.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-universidades li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* **************** 7 ********************* */
+ul#album-universidades li#foto07 {
+    background: url("../_img/logo-florida.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-universidades li#foto07:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* **************** 8 ********************* */
+ul#album-universidades li#foto08 {
+    background: url("../_img/logo-washington.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-universidades li#foto08:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* **************** 9 ********************* */
+ul#album-universidades li#foto09 {
+    background: url("../_img/logo-Illinois.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-universidades li#foto09:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Mundo Sustentável</title>
+		<link rel="stylesheet" type="text/css"  href="_css/estilo.css" />
+		<link rel="stylesheet" type="text/css"  href="_css/uni.css" />
+		<link rel="stylesheet" type="text/css"  href="_css/cadastro.css" />
+		<script>
+			function msg(){
+				alert("Mensagem Enviada!!!");
+			}
+		</script>
+	</head>
+<body>
+	<div id="cabecalho">
+	<nav id="menu">
+    <ul class="menu">
+		<li><a href="home.html">Home</a></li>
+		<li><a href="sust.html">Sustentabilidade</a></li>
+		<li><a href="#">Universidades Sustentaveis</a>
+			<ul>
+				<li><a href="uCal.html">Universidade da Califórnia</a></li>
+				<li><a href="uSta.html">Universidade de Stanford</a></li>
+				<li><a href="uCol.html">Universidade de Columbia</a></li>
+				<li><a href="uCor.html">Universidade de Cornell</a></li>
+				<li><a href="uAme.html">Universidade Americana</a></li>
+				<li><a href="uEst.html">Universidade Estadual de Portland</a></li>
+				<li><a href="uSul.html">Universidade do Sul da Florida</a></li>
+				<li><a href="uWas.html">Universidade de Washington</a></li>
+				<li><a href="uIll.html">Universidade de Illinois</a></li>
+			</ul>
+		</li>
+		<li><a href="fotos.html">Fotos</a></li>
+		<li><a href="#">Contato</a>
+			<ul>
+				<li><a href="fale-conosco.html">Fale Conosco</a></li>
+				<li><a href="faqs.html">FAQ's</a></li>
+			</ul>
+		</li>
+			<li><a href="mapa-do-site.html">Mapa Do Site</a></li>
+		</ul>
+	</nav>
+	<br>
+	<a href="home.html">
+		<img src="_img/_logo-marca.png" alt="Logo_Marca" id="iLog">
+		<img src="_img/_logo1.png" alt="Sustentabilidade" id="iSus">
+	</a>
+	</div>
+	<div id="interface">
+		<header id="cabecalho">
+			<hgroup>
+				<h1> Mundo Sustentável</h1>
+				<h2>Universidades que dão show de sustentabilidade nos EUA</h2>
+				<h3><a href="home.html">Mundo Sustentável</a> > Fale Conosco</h3>
+			</hgroup>
+		</header>
+		<section id="corpo">
+			<h1>Formulário para Contato</h1>
+			<form method="post" id="fContato">
+				<fieldset id="usuario">
+					<legend> Identificação do Usuáriio</legend>
+					<p><label for="cNome">Nome</label>:
+						<input type="text" name="tNome" id="cNome" maxlength="30" size="20" placeholder="Nome Completo"/></p>
+					<p><label for="cSenha">Senha:</label>
+						<input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"></p>
+					<p><label for="cMail">E-mail:</label>
+						<input type="email" name="tMail" id="cMail" size="20" maxlength="40"></p>
+					<fieldset id="sexo">
+						<legend>Sexo:</legend>
+						<input type="radio" name="tSexo" id="cMasc" checked><label for="cMasc">Masculino</label> <BR>
+						<input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label>
+					</fieldset>
+					<p><label for="cNasc">Data de Nascimento:</label>
+						<input type="date" name="tNasc" id="cNasc"></p>
+				</fieldset>
+				<fieldset id="endereco">
+					<legend>Endereço do Usúario</legend>
+					<p><label for="cRua">Logradouro:</label>
+						<input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Av, Trav..."></p>
+					<p><label for="cNum">Número:</label>
+						<input type="number" name="tNum" id="cNum" min="0" max="99999"/></p>
+					<p><label for="cEst">Estado:</label>
+					<select name="tEst" id="cEst">
+						<option value="AC">Acre</option>
+						<option value="AL">Alagoas</option>
+						<option value="AP">Amapá</option>
+						<option value="AM">Amazonas</option>
+						<option value="BA">Bahia</option>
+						<option value="CE">Ceara</option>
+						<option value="DF">Distrito Federal</option>
+						<option value="ES">Espírito Santo</option>
+						<option value="GO" selected>Goiás</option>
+						<option value="MA">Maranhão</option>
+						<option value="MT">Mato Grosso</option>
+						<option value="MS">Mato Grosso do Sul</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="PA">Pará</option>
+						<option value="PB">Paraíba</option>
+						<option value="PR">Paraná</option>
+						<option value="PE">Pernanbuco</option>
+						<option value="PI">Piauí</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="RN">Rio Grande do Norte</option>
+						<option value="RS">Rio Grande do Sul</option>
+						<option value="RO">Rondônia</option>
+						<option value="RR">Roraima</option>
+						<option value="SC">Santa Catarina</option>
+						<option value="SP">São Paulo</option>
+						<option value="SE">Sergipe</option>
+						<option value="TO">Tocantins</option>
+					</select></p>
+					<p><label for="cCid">Cidade:</label>
+						<input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade"/></p>
+				</fieldset>
+				<fieldset id="mensagem">
+					<legend>Mensagem do Usúario</legend>
+					<p><label for="cUrg"> Grau de Urgência:</label></p>
+						<p>Mín.<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2"/>Máx.</p>
+					<p><label for="cMsg">Mensagem:</label>
+						<textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
+				</fieldset>
+					<p><input type="submit" onclick="msg()" value="Enviar" /></p>
+			</form>
+		</section>
+		<footer id="rodape">
+		<img src="_img/grama.jpg" id="iRodape">		
+			<b><p>Copyright &COPY 2015 by - Igor Thierry | Jonatan Carmo | Weverton Guimarães </p></b>
+		</footer>
+	</div>
+</body>
+</html>

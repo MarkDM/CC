@@ -1,0 +1,8 @@
+C:\Users\Marcos\Dropbox\Biblioteca\Programação\Desktop\Projetos C#\APS3periodo\APS3periodo\bin\Release\APS3periodo.exe.config
+C:\Users\Marcos\Dropbox\Biblioteca\Programação\Desktop\Projetos C#\APS3periodo\APS3periodo\bin\Release\APS3periodo.exe
+C:\Users\Marcos\Dropbox\Biblioteca\Programação\Desktop\Projetos C#\APS3periodo\APS3periodo\bin\Release\APS3periodo.pdb
+C:\Users\Marcos\Dropbox\Biblioteca\Programação\Desktop\Projetos C#\APS3periodo\APS3periodo\obj\Release\APS3periodo.Form1.resources
+C:\Users\Marcos\Dropbox\Biblioteca\Programação\Desktop\Projetos C#\APS3periodo\APS3periodo\obj\Release\APS3periodo.Properties.Resources.resources
+C:\Users\Marcos\Dropbox\Biblioteca\Programação\Desktop\Projetos C#\APS3periodo\APS3periodo\obj\Release\APS3periodo.csproj.GenerateResource.Cache
+C:\Users\Marcos\Dropbox\Biblioteca\Programação\Desktop\Projetos C#\APS3periodo\APS3periodo\obj\Release\APS3periodo.exe
+C:\Users\Marcos\Dropbox\Biblioteca\Programação\Desktop\Projetos C#\APS3periodo\APS3periodo\obj\Release\APS3periodo.pdb
